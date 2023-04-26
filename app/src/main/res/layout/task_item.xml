@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/taskItem_tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Title Sample"
+        style="@style/fontTitle3" />
+
+    <TextView
+        android:id="@+id/taskItem_tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Sample Description with big text to see what is the behaviour"
+        style="@style/fontBody1"
+        android:layout_marginTop="8dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/pink_300"
+        android:alpha="0.5"
+        />
+
+
+
+</LinearLayout>
